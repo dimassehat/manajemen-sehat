@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.containerr {
+    width: 90%; /* Mengubah menjadi 90% untuk mobile */
+    max-width: 600px; /* Maksimum lebar untuk desktop */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-calculate {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-reset {
+    background-color: #6c757d;
+    color: white;
+}
+
+.result p {
+    margin: 10px 0;
+}
+
+.success {
+    color: green;
+}
+
+.warning {
+    color: orange;
+}
+
+.excess {
+    color: red;
+}
+
+.warningg {
+    color: red;
+    font-weight: bold;
+}
+
+/* Media Query untuk menyesuaikan dimensi pada perangkat yang lebih kecil */
+@media (max-width: 600px) {
+    .containerr {
+        padding: 15px; /* Mengurangi padding untuk mobile */
+    }
+
+    button {
+        padding: 8px; /* Mengurangi padding tombol untuk mobile */
+        font-size: 14px; /* Mengurangi ukuran font untuk mobile */
+    }
+
+    h1 {
+        font-size: 24px; /* Menyesuaikan ukuran font heading untuk mobile */
+    }
+}
