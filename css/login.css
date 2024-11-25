@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.containerr {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;  /* Pastikan elemen ini mengisi lebar penuh */
+    padding: 10px;
+    margin-bottom: 10px; /* Jarak antar inputan */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Margin bottom khusus untuk Jenis Kelamin dan Usia */
+.form-group.gender, .form-group.activity {
+    margin-bottom: 70px;
+}
+
+/* Margin bottom umum untuk form lainnya */
+.form-group {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .containerr {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.warning {
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+
+
