@@ -1,0 +1,446 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>DIMAS - Diabetes Informasi Manajemen Sehat.</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="img/favicon.png">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="css/icofont.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="css/datepicker.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
+    </head>
+    <body>
+			<!-- Header Area -->
+		<header class="header" >
+			<!-- Topbar -->
+			<div class="topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-12">
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							<!-- Top Contact -->
+							<ul class="top-contact">
+								<li><i class="fa fa-phone"></i>(0281) 636751</li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:dimasump@gmail.com">dimasump@gmail.com</a></li>
+							</ul>
+							<!-- End Top Contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar -->
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.html"><img src="img/resized_logo_178x37.jpg" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<li class="active"><a href="#">Home <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="index.html">Home</a></li>
+												</ul>
+											<li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="404.html">Diabetes</a></li>
+													<li><a href="penyebab.html">Penyebab</a></li>
+													<li><a href="lat.html">Latihan</a></li>
+													<li><a href="obat.html">Obat</a></li>
+												</ul>	
+											</li>
+											<li>
+												<li><a href="login.html">Activity</a></li>
+												
+											</li>
+											<li><a href="contact.html">Contact Us</a></li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+							<div class="col-lg-2 col-12">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+</head>
+<div class="containerr">
+    <h1>Kalkulator BMI & Kebutuhan Ideal</h1>
+    <form id="calorieForm">
+        <!-- Jenis Kelamin -->
+        <div class="form-group gender">
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" required>
+                <option value="">Pilih</option>
+                <option value="male">Pria</option>
+                <option value="female">Wanita</option>
+            </select>
+        </div>
+
+        <!-- Usia -->
+        <div class="form-group">
+            <label for="age">Usia (tahun):</label>
+            <input type="number" id="age" placeholder="Masukkan usia" required>
+        </div>
+
+        <!-- Berat Badan -->
+        <div class="form-group">
+            <label for="weight">Berat Badan (kg):</label>
+            <input type="number" id="weight" placeholder="Masukkan berat badan" required>
+        </div>
+
+        <!-- Tinggi Badan -->
+        <div class="form-group">
+            <label for="height">Tinggi Badan (cm):</label>
+            <input type="number" id="height" placeholder="Masukkan tinggi badan" required>
+        </div>
+
+        <!-- Jenis Aktivitas -->
+        <div class="form-group activity">
+            <label for="activity">Jenis Aktivitas Harian:</label>
+            <select id="activity" required>
+                <option value="">Pilih</option>
+                <option value="1.2">Sedentary (Minimal Gerak)</option>
+                <option value="1.375">Aktivitas Ringan</option>
+                <option value="1.55">Aktivitas Menengah</option>
+				<option value="1.725">Aktivitas Berat</option>
+                <option value="1.9">Aktivitas Ekstrim</option>
+            </select>
+        </div>
+
+        <!-- Kebutuhan Kalori -->
+        <div class="form-group">
+            <label for="calories">Kebutuhan Kalori (kkal):</label>
+            <input type="number" id="calories" placeholder="Masukkan kalori yang dikonsumsi" required>
+        </div>
+
+        <!-- Asupan Gula -->
+        <div class="form-group">
+            <label for="sugar">Asupan Gula (gram/hari):</label>
+            <input type="number" id="sugar" placeholder="Masukkan asupan gula" required>
+        </div>
+
+        <!-- Asupan Air -->
+        <div class="form-group">
+            <label for="water">Asupan Air (ml/hari):</label>
+            <input type="number" id="water" placeholder="Masukkan asupan air" required>
+        </div>
+
+        <!-- Durasi Tidur -->
+        <div class="form-group">
+            <label for="sleep">Durasi Tidur (jam/hari):</label>
+            <input type="number" id="sleep" placeholder="Masukkan durasi tidur" required>
+        </div>
+
+        <button type="button" onclick="calculateIdeal()">Hitung</button>
+    </form>
+
+    <div id="result" class="result"></div>
+</div>
+</section>
+
+<!-- Physical Activity Section -->
+<section class="physical-activity py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <h2 style="color: black; margin-bottom: 20px; text-align: center;">Metode Penghitungan Kebutuhan Kalori Harian </h2>
+        
+        <p style="line-height: 3; margin-bottom: 40px; text-align: center;">
+            Kebutuhan kalori anda diukur dengan menggunakan rumus Mifflin St. Jeor:
+        </p>
+        
+        <h4 style="line-height: 1.8; margin-top: 20px;">BMR (Basal Metabolic Rate) 🔥</h4>
+        <p style="line-height: 1.8;">
+            BMR adalah jumlah kalori yang dibutuhkan untuk melakukan aktivitas minimum seperti bernafas. Kalkulator ini menghitung BMR menggunakan rumus Mifflin St. Jeor sebagai berikut:
+        </p>
+        
+        <!-- Box for BMR formula -->
+        <div style="border: 1px solid #000; padding: 10px; margin: 20px auto; display: inline-block;">
+            <p style="font-family: monospace; font-size: 18px;">
+                <strong>Pria</strong> = 10 x BB + 6.25 x TB - 5 x U + 5<br>
+                <strong>Wanita</strong> = 10 x BB + 6.25 x TB - 5 x U - 161
+            </p>
+        </div>
+
+        <h5 style="line-height: 1.8; margin-top: 20px;">Penjelasan BMR</h5>
+        <ol style="line-height: 1.8; text-align: left; margin-left: 20px;">
+            <li><strong>BB</strong>: Berat badan Anda dalam Kilogram (Kg)</li>
+            <li><strong>TB</strong>: Tinggi badan Anda dalam centimeter (cm)</li>
+            <li><strong>U</strong>: Umur dalam satuan Tahun</li>
+        </ol>
+
+        <h4 style="line-height: 1.8; margin-top: 20px;">Kebutuhan Kalori Harian (TDEE) ⚡</h4>
+        <p style="line-height: 1.8;">
+            TDEE (Total Daily Energy Expenditure) adalah total kalori yang Anda butuhkan dalam melakukan aktivitas sehari-hari. Berikut adalah pengelompokan TDEE berdasarkan tingkat aktivitas:
+        </p>
+
+		<!-- Box for TDEE formula -->
+        <div style="border: 1px solid #000; padding: 10px; margin: 20px auto; display: inline-block;">
+            <p style="font-family: monospace; font-size: 18px;">
+                <strong>TDEE</strong> = BMR x Faktor Aktivitas
+            </p>
+        </div>
+        
+        <h5 style="line-height: 1.8; margin-top: 20px;">Penjelasan TDEE</h5>
+        <ol style="line-height: 1.8; text-align: left; margin-left: 20px;">
+            <li><strong>Minimal bergerak atau kerja kantoran</strong>, pengali TDEE = 1.2</li>
+            <li><strong>Aktivitas ringan</strong>, olahraga 1-2 kali/minggu, pengali TDEE = 1.375</li>
+            <li><strong>Aktivitas sedang</strong>, olahraga 3-5 kali/minggu, pengali TDEE = 1.55</li>
+            <li><strong>Aktivitas berat</strong>, olahraga 6-7 kali/minggu, pengali TDEE = 1.725</li>
+            <li><strong>Aktivitas ekstrim</strong>, olahraga 2 kali sehari atau lebih, pengali TDEE = 1.9</li>
+        </ol>
+		<h4 style="line-height: 1.8; margin-top: 20px;">Indeks BMI (Body Mass Index) 🏋️‍♀️</h4>
+        <p style="line-height: 1.8;">Indeks BMI digunakan untuk menilai apakah seseorang berada dalam kategori berat badan yang sehat. Berikut adalah golongan berat badan berdasarkan BMI:</p>
+        
+		<!-- Box for BMI formula -->
+<div style="border: 1px solid #000; padding: 10px; margin: 20px auto; display: inline-block;">
+    <p style="font-family: monospace; font-size: 18px;">
+        <strong>Rumus BMI</strong> = Berat Badan (Kg) / (Tinggi Badan (m) x Tinggi Badan (m))
+    </p>
+</div>
+         <!-- BMI Table -->
+		 <table style="width: 100%; border: 1px solid #000; border-collapse: collapse; margin-top: 20px;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #000; padding: 10px; text-align: center;">BMI</th>
+                    <th style="border: 1px solid #000; padding: 10px; text-align: center;">Golongan Berat Badan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center;">Kurang dari 18.5</td>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center; color: yellow;">Underweight</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center;">18.5 – 24.9</td>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center; color: green;">Normal</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center;">25.0 – 29.9</td>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center; color: orange;">Overweight</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center;">Lebih dari 30.0</td>
+                    <td style="border: 1px solid #000; padding: 10px; text-align: center; color: red;">Obese</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+   <!-- FAQ Section -->
+   <section class="faq-container">
+	<div class="container">
+	<!-- FAQ 1 -->
+	<div class="faq-item">
+		<div class="faq-question">Apakah hasil dari kalkulator BMR ini bisa digunakan untuk diagnosis medis?</div>
+		<div class="faq-answer">
+			Hasil dari kalkulator BMR ini bukanlah sebuah alat diagnosis medis ataupun pengganti konsultasi dokter. Perlu diingat bahwa ada beberapa faktor yang memengaruhi hasil kalkulator BMR ini, seperti usia, kondisi tubuh masing-masing, berat badan, tinggi badan, hingga aktivitas harian. Sebelum mengubah gaya hidup, pastikan Anda konsultasi dengan dokter terlebih dahulu.
+		</div>
+	</div>
+
+	<!-- FAQ 2 -->
+	<div class="faq-item">
+		<div class="faq-question">Apa perbedaan antara BMR dan TDEE?</div>
+		<div class="faq-answer">
+			BMR berguna dalam memperkirakan kalori minimum untuk fungsi basal tubuh Anda. Sementara itu, total pengeluaran energi harian (TDEE) mengukur berapa banyak kalori yang Anda bakar setiap hari, termasuk aktivitas fisik.
+		</div>
+	</div>
+
+	<!-- FAQ 3 -->
+	<div class="faq-item">
+		<div class="faq-question">Apa itu BMI?</div>
+		<div class="faq-answer">
+			Body Mass Index (BMI) adalah nilai ukur untuk mengetahui status gizi seseorang berdasarkan berat dan tinggi badannya. Nilai BMI juga dapat menjadi alat pantauan awal untuk mengetahui risiko seseorang terhadap suatu penyakit. Nilai BMI yang tinggi menandakan bahwa Anda kelebihan berat badan (overweight atau obesitas). Sementara, nilai BMI yang rendah artinya Anda kekurangan gizi dan memiliki berat badan rendah.
+		</div>
+	</div>
+
+	<!-- FAQ 4 -->
+	<div class="faq-item">
+		<div class="faq-question">Referensi dan Sumber</div>
+		<div class="faq-answer">
+			<ul>
+				<li><a href="https://bocahindonesia.com/menghitung-berat-badan-ideal/" target="_blank">https://bocahindonesia.com/menghitung-berat-badan-ideal/</a></li>
+				<li><a href="https://hellosehat.com/" target="_blank">https://hellosehat.com/</a></li>
+				<li><a href="" target="_blank">WHO GUIDELINES ON
+					PHYSICAL ACTIVITY AND
+					SEDENTARY BEHAVIOUR</a></li>
+				<li><a href="" target="_blank">PERMENKES NOMOR 28 TAHUN 2019 TENTANG ANGKA KECUKUPAN GIZI</a></li>
+				<li><a href="" target="_blank">American Heart Association. Diakses pada 2020. Dietary Sugars Intake and Cardiovascular Health.</a></li>
+				<li><a href="" target="_blank">National Academies of Sciences, Engineering, and Medicine - Panduan asupan air harian</a></li>
+				<li><a href="" target="_blank">National Sleep Foundation - Rekomendasi durasi tidur berdasarkan usia</a></li>
+			</ul>
+			</ul>
+			</ul>
+</section>
+<script>
+	// Select all FAQ question items
+	const faqQuestions = document.querySelectorAll('.faq-question');
+
+	// Add event listeners to toggle the answers
+	faqQuestions.forEach((question) => {
+		question.addEventListener('click', () => {
+			const answer = question.nextElementSibling;
+
+			// Toggle the visibility of the answer
+			answer.classList.toggle('show');
+		});
+	});
+</script>
+</ul>
+</div>
+</div>
+<section>
+ 
+	<!-- Footer Area -->
+	<footer id="footer" class="footer ">
+		<!-- Footer Top -->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="single-footer">
+							<h2>About Us</h2>
+							<p>Selamat datang di DIMAS (Diabetes Informasi Manajemen Sehat), sebuah platform yang berdedikasi untuk membantu penderita diabetes, keluarga, dan masyarakat umum dalam memahami serta mengelola kondisi diabetes dengan lebih baik.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="single-footer f-link">
+							<h2>Quick Links</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12">
+									<ul>
+										<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
+										<li><a href="404.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Diabetes</a></li>
+										<li><a href="penyebab.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Penyebab</a></li>
+										<li><a href="lat.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Latihan</a></li>
+										<li><a href="obat.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Obat</a></li>
+										<li><a href="login.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Activities</a></li>	
+									</ul>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12">
+									<ul>
+										<li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="single-footer">
+							<h2>Kontak Kami</h2>
+							<p>Untuk informasi lebih lanjut atau bantuan, jangan ragu untuk menghubungi kami melalui detail berikut.</p>
+							<ul class="contact-details">
+								<li class="contact-item">📧 Email: dimasump@gmail.com</li>
+								<li class="contact-item">📞 Telepon: (0281) 636751</li>
+								<li class="contact-item">📍 Kampus 1: Jl. KH. Ahmad Dahlan, Dusun III, Dukuhwaluh, Kec. Kembaran, Kabupaten Banyumas, Jawa Tengah 53182</li>
+								<li class="contact-item">📍 Kampus 2: Dusun II, Sokaraja Kulon, Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah 53181
+							</ul>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Footer Top -->
+		
+	</footer>
+	<!--/ End Footer Area -->
+
+	
+	<!-- jquery Min JS -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jquery Migrate JS -->
+	<script src="js/jquery-migrate-3.0.0.js"></script>
+	<!-- jquery Ui JS -->
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- Easing JS -->
+	<script src="js/easing.js"></script>
+	<!-- Color JS -->
+	<script src="js/colors.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap Datepicker JS -->
+	<script src="js/bootstrap-datepicker.js"></script>
+	<!-- Jquery Nav JS -->
+	<script src="js/jquery.nav.js"></script>
+	<!-- Slicknav JS -->
+	<script src="js/slicknav.min.js"></script>
+	<!-- ScrollUp JS -->
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<!-- Niceselect JS -->
+	<script src="js/niceselect.js"></script>
+	<!-- Tilt Jquery JS -->
+	<script src="js/tilt.jquery.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="js/owl-carousel.js"></script>
+	<!-- counterup JS -->
+	<script src="js/jquery.counterup.min.js"></script>
+	<!-- Steller JS -->
+	<script src="js/steller.js"></script>
+	<!-- Wow JS -->
+	<script src="js/wow.min.js"></script>
+	<!-- Magnific Popup JS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Counter Up CDN JS -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Main JS -->
+    <script src="js/login.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
